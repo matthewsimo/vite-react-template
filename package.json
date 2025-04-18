@@ -15,7 +15,6 @@
     "dash": true
   },
   "dependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.40.0",
     "@types/node": "^22.14.1",
     "hono": "4.7.5",
     "react": "19.0.0",
@@ -44,5 +43,8 @@
     "preview": "npm run build && vite preview",
     "types": "wrangler types"
   },
-  "type": "module"
+  "type": "module",
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.40.0"
+  }
 }
